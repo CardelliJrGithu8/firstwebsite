@@ -1,0 +1,44 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+    display: inline-block;
+    cursor: default;
+    user-select: none;
+    font-size: 3em;
+    position: relative;
+    
+  }
+
+  h1 span {
+    display: inline-block;
+    cursor: default;
+  }
+
+  #formtable {
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse;
+    width: 80%; /* Adjust width as needed */
+    font-family: 'Sedgwick Ave Display', cursive; /* Apply to all text in the table */
+  }
+  
+  #formtable th, #formtable td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #formtable th {
+    background-color: #8000ff; /* Keep purple background */
+    color: white; /* Change text to white */
+    font-weight: normal; /* Make the text normal */
+    font-family: Arial, sans-serif; /* Set to a normal font */
+  }
+  
+  #formtable td {
+    font-family: 'Sedgwick Ave Display', cursive; /* Apply to all table text */
+  }
+  
