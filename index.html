@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn All About HTML Forms</title>
+  <link rel="stylesheet" href="resources/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1 id="header">Learn All About HTML Forms</h1>
+  <form id="stopForm">
+    <label>
+      <input type="radio" name="action" id="stopRadio" value="stop">
+      I've had enough
+    </label>
+    <br><br>
+    <label>
+      <input type="radio" name="action" value="undo">
+      Oh no, I made a mistake, bring it back, please!
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="resources/javascript/headerexplode.js"></script>
+  <p>What's great about HTML Forms? HTML forms can accept all kinds of data on your website. With forms you can gather data from users, and Learn
+    all kinds of things about people that you never knew before. Then you can statistically analyze that data real hard. I'm talking real hard. Like wow, you analyzed that data so hard it almost exploded everywhere, but it didn't.
+    See, that's the magic of data and stuff.
+  </p>
+  <p>See here we have a form that can accept two kinds of information from the user using radio buttons
+    for when the user gets sick of the animation text and starts to get scared that their mouse might hover
+    over the wrong portion of the webpage, we want the user to have the freedom to stop the event action,
+    but also give the user the freedom to re-enact that position once they decide to do so.
+  </p>
+  
+  <h2>HTML Form Elements Reference</h2>
+  <table id="formtable">
+    <thead>
+      <tr>
+        <th>Tag or Attribute</th>
+        <th>Formatted Tag</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Form</td>
+        <td><code>&lt;form&gt;</code></td>
+        <td>Defines an HTML form for user input.</td>
+      </tr>
+      <tr>
+        <td>Input</td>
+        <td><code>&lt;input&gt;</code></td>
+        <td>Allows the user to enter data (e.g., text, radio buttons, checkboxes).</td>
+      </tr>
+      <tr>
+        <td>Label</td>
+        <td><code>&lt;label&gt;</code></td>
+        <td>Defines a label for an <code>&lt;input&gt;</code> element.</td>
+      </tr>
+      <tr>
+        <td>Button</td>
+        <td><code>&lt;button&gt;</code></td>
+        <td>Creates a clickable button inside a form.</td>
+      </tr>
+    </tbody>
+  </table>
+  
+</body>
+</html>
